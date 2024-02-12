@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.header{
+    background: #45474B;
+    font-size: 16 px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 40px;
+    text-align: right ;
+    padding-right: 20px;
+    padding-top: 5px;
+    
+    & a{
+        text-decoration:none;
+        color: #fff;
+        justify-content: space-around;
+        padding-right: 20px;
+        padding-top: 5px;
+    }
+}
+.nav-bar{
+    height:70px ;
+    width: 100%;
+    background: #fa9930;
+    padding-left: 25px;
+    padding-top: 20px;
+    justify-content: space-around;
+    & a{
+        padding-left: 25px;
+        padding-top: 5px;
+        text-decoration:none;
+        color: #fff;
+        float: right; /*yazı konumunu değiştermiye yarar*/
+    }
+}
